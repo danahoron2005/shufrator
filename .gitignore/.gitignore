@@ -1,0 +1,9 @@
+while True:
+    word = input("Введіть слово: ")
+    new_word = ""
+    for i in word:
+        new_word += chr(ord(i)+2)
+        x = new_word.replace("e", "a")
+        y = x.replace("!","a")
+        c = y.replace("{", "")
+        print(c)
